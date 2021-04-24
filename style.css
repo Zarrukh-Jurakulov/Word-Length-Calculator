@@ -1,0 +1,45 @@
+html,body {
+ padding: 0;
+ margin: 0;
+}
+#main {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-color: brown;
+}
+#main__content {
+  height: 60vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+ background-color: brown;
+}
+#intro {
+ font-size: 40px;
+}
+#textInput {
+ width: 30%;
+ height: 5vh;
+ outline-style: none;
+ font-size: 25px;
+}
+#totalLength {
+ font-size: 35px;
+}
+#calculateButton {
+ height: 8vh;
+ width: 20%;
+ cursor: pointer;
+ border-radius: 20px;
+ outline-style: none;
+ border: 1px solid black;
+ font-size: 20px;
+ background-color: blue;
+ color: white;
+}
